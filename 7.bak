@@ -1,0 +1,88 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname 05-funcoes) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+(display "  UENF-CCT-LCMAT-CC, 2021")
+(newline)
+(display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro)")
+(newline)
+(display "  Aluno:  Eduardo Ferreira ")
+(newline)
+;;
+;;
+;; DEFINICAO DE FUNCOES-procedimentos  usando lambda
+;;       (define  NomeFuncao  (lambda  ( parametros )  (definicao) )  ) 
+;;---------------------------------------------------
+
+(display "EU NÃO TENHO COMO EXPLICAR PORQUE O SENHOR ME MANDOU UM ALGORITMO QUE DA ERRO")
+(define ADICIONA
+      (lambda  (a  b)
+        (+ a b )
+       )
+)  
+
+;;
+;;
+(define soma
+  (lambda (x y) 
+    (begin
+      (newline)
+      (display "A soma de ")
+      (display x)
+       (display " e ")
+       (display y)
+       (display " = ")
+      (+ x y)
+     )
+   )
+)
+;;---------------------------------------------
+(define produto
+  (lambda (x y) 
+    (begin
+      (newline)
+      (display "O produto de ") (display x) (display " e ") (display y)
+      (display " = ")
+      (+ x y)
+     )
+   )
+)
+;;---------------------------------------------
+(define divisao
+  (lambda (x y) 
+    (begin
+      (newline)
+      (display "A divisao =  ")
+      (+ x y)
+     )
+   )
+)
+;;---------------------------------------------
+(define diferenca
+  (lambda (x y) 
+    (begin
+      (newline)
+      (display "A diferenca =  ")
+      (+ x y)
+     )
+   )
+)
+;;---------------------------------------------
+(define quadrado
+     (lambda ( a )
+       (newline)
+      (display "O quadrado =  ")
+       ( * a a)
+       )
+  )
+;;---------------------------------------------
+
+;;----------- Executando funcoes --------------
+
+(ADICIONA 25 15)
+(ADICIONA 30 40)
+
+(soma 45 32)
+(produto 21 15)
+(divisao 420 7)
+(diferenca 89 35)
+(quadrado 09)

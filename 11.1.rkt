@@ -1,0 +1,31 @@
+(newline)
+(display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro), 2021")
+(newline)
+(display "  Aluno:  Eduardo Ferreira ")
+(newline)
+(display "---------------------------------------------------------")
+(display "Exercicio 11.1")
+
+(define x (cons 1 2))
+(define y (cons 3 4))
+(define z (cons x y))
+
+(newline)
+(display "Os dois pares são ")
+(display z)
+(newline)
+(newline)
+(display "O primeiro elemento do par x = ")   
+(car x)                
+
+(newline)
+(display "O segundo elemento do par x = ")
+(cdr x)
+
+(newline)
+(display "O primeiro elemento do par y = ")   
+(car y)                
+
+(newline)
+(display "O segundo elemento do par y = ")
+(cdr y)            
