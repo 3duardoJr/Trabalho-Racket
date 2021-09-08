@@ -5,8 +5,6 @@
 (display "  Aluno:  Eduardo Ferreira")
 (newline)
 (newline)
-(newline)
-
 (define x (cons 1 2))
 (define y (list x 4 5))
 
